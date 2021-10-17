@@ -55,6 +55,8 @@ packages="
  default-jre-headless
  fdroidserver
  gnupg
+ patch
+ rsync
  sudo
 "
 
