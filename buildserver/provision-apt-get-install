@@ -57,6 +57,7 @@ packages="
  gnupg
  patch
  rsync
+ sdkmanager
  sudo
 "
 
