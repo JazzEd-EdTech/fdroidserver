@@ -569,5 +569,4 @@ docker:
     - docker tag $TEST_IMAGE $RELEASE_IMAGE
     - docker tag $TEST_IMAGE ${RELEASE_IMAGE}-bullseye
     - echo $CI_BUILD_TOKEN | docker login -u gitlab-ci-token --password-stdin registry.gitlab.com
-    - docker push $RELEASE_IMAGE
     - docker push $RELEASE_IMAGE-bullseye
